@@ -1,9 +1,41 @@
 Rails.application.routes.draw do
+  get 'users/new'
+
+  get 'users/create'
+
+  get 'users/show'
+
+  get 'users/new'
+
+  get 'users/create'
+
+  get 'users/show'
+
+  get 'users/destroy'
+
+  get 'users/update'
+
+  get 'users/edit'
+
+  get 'users/new'
+
+  get 'users/create'
+
+  get 'users/show'
+
+  get 'users/destroy'
+
+  get 'users/update'
+
+  get 'users/edit'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
   resources :projects do
     resources :tickets
   end
+
+  resources :users
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
   root "projects#index"
