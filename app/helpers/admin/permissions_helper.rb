@@ -4,8 +4,8 @@ module Admin::PermissionsHelper
 		{
 		"view" => "View",
 		"create tickets" => "Create Tickets",
-		"edit_tickets" => "Edit Tickets",
-		"delete_tickets" => "Delete Tickets"
+		"edit tickets" => "Edit Tickets",
+		"delete tickets" => "Delete Tickets"
 		}
 	end
 
