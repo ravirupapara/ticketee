@@ -18,6 +18,8 @@ Rails.application.routes.draw do
   resources :projects do
     resources :tickets
   end
+
+  resources :files
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
   root "projects#index"

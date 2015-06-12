@@ -1,0 +1,21 @@
+mkdir ~/src
+mkdir ~/.localpython
+cd ~/src
+wget http://www.python.org/ftp/python/2.7.10/Python-2.7.10.tgz
+tar -zxvf Python-2.7.10.tgz
+cd Python-2.7.10
+
+make clean
+./configure --prefix=/home/aspire10/.localpython
+make
+make install
+
+
+
+
+
+virtualenv spt_env
+virtualenv -p /home/aspire10/.localpython/bin/python2.7 spt_env
+source bin/activate
+python --version
+
