@@ -1,0 +1,26 @@
+Django-tastypie Installation:
+
+sudo apt-get install python-pip python-dev build-essential
+sudo pip install django-tastypie
+pip install Django==1.7.5
+
+GCM:
+
+pip install django-gcm
+sudo pip install python-gcm
+
+
+Mysql installations:
+
+sudo apt-get install python-mysqldb
+sudo pip install MySQL-python
+
+
+
+Apache:
+
+sudo apt-get install apache2
+sudo apt-get install libapache2-mod-wsgi
+
+sudo service apache2 restart
+sudo service apache2 reload
