@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<field position="replace" name="groups_id">
+  <separator colspan="4" string="Application"/>
+  <field name="sel_groups_9_10"/>
+  <newline/>
+  <field name="sel_groups_5_12_13"/>
+  <newline/>
+  <field name="sel_groups_14"/>
+  <newline/>
+  <field name="sel_groups_3_4"/>
+  <newline/>
+  <separator colspan="4" string="Technical Settings" groups="base.group_no_one"/>
+ <!-- <field name="in_group_7" groups="base.group_no_one"/> -->
+  <!--  <field name="in_group_15" groups="base.group_no_one"/>-->
+  <separator colspan="4" string="Usability"/>
+  <field name="in_group_6"/>
+  <field name="in_group_8"/>
+  <separator colspan="4" string="Other"/>
+  <field name="in_group_11"/>
+  <field name="in_group_1"/>
+  <field name="in_group_2"/>
+</field>
+
+
+Attachment form:
+
+<?xml version="1.0"?>
+<form string="Attachments">
+                   <sheet>
+                    <label for="name" class="oe_edit_only"/>
+                    <h1>
+                        <field name="name"/>
+                    </h1>
+                    <group>
+                        <group string="Data">
+                            <field name="category"/>
+                            <field name="datas" filename="datas_fname"/>
+                            <field name="datas_fname" />
+                        </group>
+                        <group groups="base.group_no_one" string="History">
+                            <label for="create_uid" string="Creation"/>
+                            <div name="creation_div">
+                                <field name="create_uid" readonly="1" class="oe_inline"/> on 
+                                <field name="create_date" readonly="1" class="oe_inline"/>
+                            </div>
+                        </group>
+                        <group name="description_group" string="Description">
+                            <field name="description" nolabel="1"/>
+                        </group>
+                    </group>
+                  </sheet>
+                </form>
+
+
+
+
+Attachment Tree:
+
+<?xml version="1.0"?>
+<tree string="Attachments">
+                    <field name="name"/>
+                    <field name="datas_fname"/>
+                    <field name="category"/>
+                </tree>
+
+
+
+
+
+
+
+http://localhost:8069/web/reset_password?token=tMiZNYhCZTq19wxwQEmQ&db=aspire10

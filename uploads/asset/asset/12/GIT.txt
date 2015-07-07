@@ -1,0 +1,29 @@
+git config --global user.name "ravirupapara"
+git config --global user.email "ravi.rupapara@aspiresoftware.in"
+git config --global credential.helper cache
+git config --global credential.helper cache
+
+
+
+git init
+
+git add .
+
+git commit -m "Generate the Rails 4 application"
+
+git log
+
+git remote add ticketee git@github.com:ravirupapara/ticketee.git
+git push ticketee master -u
+
+git rm public/uploads/ticket/asset/1/speed.txt
+
+git commit --amend --reuse-message HEAD
+
+
+
+
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+
+ssh -T git@github.com
