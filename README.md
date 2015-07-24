@@ -1,2 +1,3 @@
 # ticketee
-ticketee
+
+Rails Application Demo
